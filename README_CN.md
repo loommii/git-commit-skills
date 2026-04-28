@@ -32,7 +32,13 @@ npx skills add loommii/git-commit-skills
 npx give-skill loommii/git-commit-skills
 ```
 
-两个工具都支持安装到指定的智能体：
+或使用 Gemini CLI：
+
+```bash
+gemini skills install https://github.com/loommii/git-commit-skills.git
+```
+
+`skills` 和 `give-skill` 都支持安装到指定的智能体：
 
 ```bash
 # 仅安装到 Claude Code

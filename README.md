@@ -32,7 +32,13 @@ Or with [give-skill](https://www.npmjs.com/package/give-skill):
 npx give-skill loommii/git-commit-skills
 ```
 
-Both tools support installing to specific agents:
+Or with Gemini CLI:
+
+```bash
+gemini skills install https://github.com/loommii/git-commit-skills.git
+```
+
+Both `skills` and `give-skill` support installing to specific agents:
 
 ```bash
 # Install to Claude Code only
