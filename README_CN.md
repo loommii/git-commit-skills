@@ -23,26 +23,26 @@
 使用 [skills CLI](https://www.npmjs.com/package/@anthropic/skills) 直接从 GitHub 安装：
 
 ```bash
-npx skills add <your-username>/git-commit-skill
+npx skills add loommii/git-commit-skills
 ```
 
 或使用 [give-skill](https://www.npmjs.com/package/give-skill)：
 
 ```bash
-npx give-skill <your-username>/git-commit-skill
+npx give-skill loommii/git-commit-skills
 ```
 
 两个工具都支持安装到指定的智能体：
 
 ```bash
 # 仅安装到 Claude Code
-npx skills add <your-username>/git-commit-skill -a claude-code
+npx skills add loommii/git-commit-skills -a claude-code
 
 # 仅安装到 Cursor
-npx skills add <your-username>/git-commit-skill -a cursor
+npx skills add loommii/git-commit-skills -a cursor
 
 # 全局安装（所有项目可用）
-npx skills add <your-username>/git-commit-skill -g
+npx skills add loommii/git-commit-skills -g
 ```
 
 支持的智能体包括：Claude Code、Cursor、GitHub Copilot、Gemini CLI、Windsurf、Trae、Codex、OpenCode 等。
@@ -52,7 +52,7 @@ npx skills add <your-username>/git-commit-skill -g
 克隆此仓库，然后将 skill 文件夹复制到对应智能体的 skills 目录：
 
 ```bash
-git clone https://github.com/<your-username>/git-commit-skill.git
+git clone https://github.com/loommii/git-commit-skills.git
 ```
 
 | 智能体 | 项目路径 | 全局路径 |

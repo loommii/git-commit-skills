@@ -23,26 +23,26 @@ An Agent Skill that analyzes staged git changes and generates professional, stan
 Install directly from GitHub using the [skills CLI](https://www.npmjs.com/package/@anthropic/skills):
 
 ```bash
-npx skills add <your-username>/git-commit-skill
+npx skills add loommii/git-commit-skills
 ```
 
 Or with [give-skill](https://www.npmjs.com/package/give-skill):
 
 ```bash
-npx give-skill <your-username>/git-commit-skill
+npx give-skill loommii/git-commit-skills
 ```
 
 Both tools support installing to specific agents:
 
 ```bash
 # Install to Claude Code only
-npx skills add <your-username>/git-commit-skill -a claude-code
+npx skills add loommii/git-commit-skills -a claude-code
 
 # Install to Cursor only
-npx skills add <your-username>/git-commit-skill -a cursor
+npx skills add loommii/git-commit-skills -a cursor
 
 # Install globally (available across all projects)
-npx skills add <your-username>/git-commit-skill -g
+npx skills add loommii/git-commit-skills -g
 ```
 
 Supported agents include: Claude Code, Cursor, GitHub Copilot, Gemini CLI, Windsurf, Trae, Codex, OpenCode, and more.
@@ -52,7 +52,7 @@ Supported agents include: Claude Code, Cursor, GitHub Copilot, Gemini CLI, Winds
 Clone this repository and copy the skill folder to your agent's skills directory:
 
 ```bash
-git clone https://github.com/<your-username>/git-commit-skill.git
+git clone https://github.com/loommii/git-commit-skills.git
 ```
 
 | Agent | Project Path | Global Path |
